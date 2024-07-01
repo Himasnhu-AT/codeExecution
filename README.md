@@ -10,6 +10,9 @@ A microservice made for project [CpMasters](https://github.com/Himasnhu-AT/cpmas
 - [x] Check working with js (inital version)
 - [ ] Check working with other languages (python, c, c++, java)
 - [ ] Add proper error handling and logging (for environment variables and code execution)
+- [ ] Add proper documentation
+- [ ] Add proper testing
+- [ ] Add proper versioning
 - [ ] sample docker `yaml` for other languages
 
 ## How to run
