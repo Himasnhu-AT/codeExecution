@@ -46,7 +46,7 @@ export class AppService {
     let tempScriptFilePath;
     let tempInputFilePath;
     let extension = process.env.LANGUAGE;
-    let execCommand = process.env.EXEC_COMMAND;
+    let execCommand = process.env.EXECCOMMAND;
 
     tempScriptFilePath = this.createTempFile(code, extension);
 

@@ -1,8 +1,8 @@
 {
-  "name": "codeExecution",
+  "name": "Code Execution",
+  "description": "Run Docker container with code execution capabilities",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "author": "Himanshu <git:himasnhu-at>",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

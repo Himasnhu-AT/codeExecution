@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  code_executor_js_service:
+    container_name: code_executor_js
+    image: himanshu806/code_executer:v0.2.0
+    environment:
+      - LANGUAGE=js
+      - EXECCOMMAND=node
+    ports:
+      - '3000:3000'
