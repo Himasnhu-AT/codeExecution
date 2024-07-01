@@ -29,13 +29,13 @@ export class AppService {
 
   async executeCode(code: string, testCases: TestCase[]): Promise<any> {
     console.log(process.env.LANGUAGE);
-    if (process.env.LANGUAGE) {
+    if (process.env.LANGUAGE == undefined || process.env.LANGUAGE == '') {
       console.error('Language not set');
       process.exit(1);
     }
 
-    console.log(process.env.EXEC_COMMAND);
-    if (process.env.EXEC_COMMAND) {
+    console.log(process.env.EXECCOMMAND);
+    if (process.env.EXECCOMMAND == undefined || process.env.EXECCOMMAND == '') {
       console.error('Execution command not set');
       process.exit(1);
     }
